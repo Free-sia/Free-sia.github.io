@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Nunito:wght@600&family=Open+Sans:wght@500;700&family=Philosopher:wght@400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 1280px;
+}
+
+header {
+    width: 100%;
+    height: 167px;
+    background-color:#F8EDEB;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    align-items: center;
+    margin-right: auto;
+    padding-left: 25px;
+    /*讓瀏覽器自動判斷 div.logo 與後面 div 之間的距離，達到貼左貼右的版面設定*/
+}
+
+header a {
+    color: #000000;
+    display: block;
+    text-decoration: none;
+}
+header h1 {
+    margin-right: auto;/*讓 menu 到右邊去*/
+}
+
+body 
+
+ul.menu {
+    font-family:Philosopher;
+    font-weight: 700;
+    display: flex; /*讓選單橫排*/
+    list-style: none;/*清除圓點*/
+    margin: 0;/*清除 ul 額外空間*/
+    padding: 0px 80px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+ul.menu a {
+    font-family:Philosopher;
+    font-weight: 700;
+    /*超連結的正常狀態*/
+    font-size: 25px;
+    padding: 10px;
+}
+
+ul.menu a:hover {
+    /*當滑鼠移上超連結時的狀態*/
+    background-color: #FFE5D9; 
+    border-radius: 20px;
+}
+
+.main {
+    font-family:Philosopher;
+    font-size: 60px;
+    height: 720px;
+    color: #FFFFFF;
+    line-height: auto;
+    padding-top: 470px;
+    padding-left: 50px;
+    background-image: url(image/main\ image.png);
+}
+
+.main a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.products {
+    height: 720px;
+    background-color: #F8EDEB;
+    font-family:Philosopher;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    
+}
+.product_card {
+    background-color: #FFE5D9;
+    border:1px solid #492903;
+    border-radius: 60px ;
+}
+
+.cardintro {
+    display: block;
+    height: 150px;
+    border:1px inside #492903 ;
+    border-radius:0 0 60px 60px;
+}
+
+.card_title {
+    font-family:Philosopher;
+    font-weight: 700;
+    line-height: 70px;
+    font-size: 30px;
+}
+
+.card_button {
+    font-family:'Open Sans';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 60px;
+    border: none;
+    background-color: #FFE5D9;
+}
+
+.card_button a:hover {
+    /*當滑鼠移上超連結時的狀態*/
+    background-color: #FFE5D9; 
+    border-radius: 20px;
+}
+
+.up {
+    display: flex;
+    gap:0px;
+    height: 327px;
+    padding-top: 0px;
+
+}
+.pwrap {
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 90px;
+    line-break: auto;
+
+}
+
+.p1 {
+    font-family:'Nunito';
+    font-weight: 600;
+    font-size: 16px;
+    color: #7C4A0E;
+}
+
+.p2 {
+    font-family:Philosopher;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.p3 {
+    font-family:'Open Sans';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.happy {
+    height: 356px;
+    position: absolute;
+    z-index: 100;
+    left: 700px;
+    
+}
+
+.down {
+    height:393px;
+    background-color: #FFE5D9;
+    font-family:Philosopher;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 65px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.trendingg {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.cardinfo {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Open Sans';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.heart {
+    padding-right: 10px;
+}
